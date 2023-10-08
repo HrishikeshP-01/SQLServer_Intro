@@ -24,3 +24,14 @@
 - There are 2 subcategories of enterprise edition if needed:
 #### Developer Edition
 #### Evaluation Edition
+
+### Accessing SQL Server
+#### Authentication
+You can authenticate a user using the following options:
+- SQL Server Authentication
+- Active Directory
+- Azure Active Directory – Requires Azure Arc-enabled SQL Server 2022
+#### Protocols used:
+- TCP/IP **(Default port: 1433)**
+- Shared memory
+- Named pipes
