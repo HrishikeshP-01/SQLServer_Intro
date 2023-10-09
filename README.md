@@ -42,3 +42,12 @@ SQL Server can in theory, run on a single disk that has all the DBs, SQL Server,
 ## Database consists of 2 main components:
 1. Data
 2. Logs – Transactional logs. 
+
+**Recovery models** – the type of recovery model used will determine the restore granularity
+1. *Full* – every single transaction is logged. The log size could increase rapidly but the DB can be restored to any pt in time
+2. *Bulk Logged*
+3. *Simple* – the log size won’t grow too fast.
+
+**SQL Server agent** – orchestrates tasks & helps in automation i.e, runs time-specific tasks, multiple-step jobs, etc.
+Another way of doing automation is using **triggers**.
+
