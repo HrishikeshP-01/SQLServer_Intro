@@ -72,8 +72,21 @@ Some common tools for accessing SQL Server are:
 
 In most cases we use a combination of these tools as they cater for different services.
 
-## What is T-SQL
+## T-SQL
+### What is T-SQL
 - Language used to communicate with SQL Server
 - Consists of DML(Data Manipulation Language) & DDL(Data Definition Language)
 - Comes with full support for flow control, error handling, variables, transactions, procedures & functions
+
+### Functions:
+1. Scalar functions
+2. Table valued functions – returns a table
+3. Aggregate functions
+
+**Stored Procedures** – pre-compiled collection of SQL statements & procedural local logic that allows Code reusability
+- Improves performance
+- Added security (*we can grant access of a procedure to a user without having to grant them access to the underlying tables*)
+- Modularity & Encapsulation
+- Transaction Control
+- Maintenance & Versioning
 
