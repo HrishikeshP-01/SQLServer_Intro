@@ -107,4 +107,17 @@ Built-in ETL service
 ### SQL Server Reporting Services (SSRS)
 Built-in visualization layer. But nowadays, we’re switching to Power BI & SSRS is losing its relevancy.
 
+**Arc Enablement** – SQL Server metadata is stored in Azure cloud, allowing us to manage multiple SQL Servers via cloud. It also provides the following features:
+- Best practice assessment
+- Metrics
+- Logs
+- Centralized update management
+- Azure Active Directory Authentication
+
+## Azure Synapse Link for SQL Server
+- Bring OLTP tables from SQL Server to Azure Synapse workspace in real-time.
+- For this we install a self-hosted integration runtime which makes use of an Azure Data Lake Storage to feed a dedicated SQL pool in Azure Synapse. 
+
+## Managed Instance Link 
+An on-premise SQL server & a managed instance in the cloud can be connected via a Managed Instance Link. The users normally use the on-premise SQL Server but the Managed Instance in the cloud can act as a stand-in whenever there’s a failure in the on-premises server. Whenever the on-premises server comes back up again, a FAILBACK happens & the users will automatically start using the on-premises server again.
 
