@@ -35,3 +35,10 @@ You can authenticate a user using the following options:
 - TCP/IP **(Default port: 1433)**
 - Shared memory
 - Named pipes
+
+## Disk configuration
+SQL Server can in theory, run on a single disk that has all the DBs, SQL Server, OS etc. But in a production environment there a multiple disks that could have one disk for OS + App, one for data, one for logs, one for TempDB etc. that sits on multiple servers. 
+
+## Database consists of 2 main components:
+1. Data
+2. Logs – Transactional logs. 
