@@ -70,4 +70,10 @@ Some common tools for accessing SQL Server are:
 - Cross platform
 - Primarily for automation & scripting scenarios
 
+In most cases we use a combination of these tools as they cater for different services.
+
+## What is T-SQL
+- Language used to communicate with SQL Server
+- Consists of DML(Data Manipulation Language) & DDL(Data Definition Language)
+- Comes with full support for flow control, error handling, variables, transactions, procedures & functions
 
