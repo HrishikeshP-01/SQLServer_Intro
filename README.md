@@ -36,10 +36,10 @@ You can authenticate a user using the following options:
 - Shared memory
 - Named pipes
 
-## Disk configuration
+### Disk configuration
 SQL Server can in theory, run on a single disk that has all the DBs, SQL Server, OS etc. But in a production environment there a multiple disks that could have one disk for OS + App, one for data, one for logs, one for TempDB etc. that sits on multiple servers. 
 
-## Database consists of 2 main components:
+### Database consists of 2 main components:
 1. Data
 2. Logs – Transactional logs. 
 
@@ -50,4 +50,24 @@ SQL Server can in theory, run on a single disk that has all the DBs, SQL Server,
 
 **SQL Server agent** – orchestrates tasks & helps in automation i.e, runs time-specific tasks, multiple-step jobs, etc.
 Another way of doing automation is using **triggers**.
+
+## SQL Server Client Tools
+Some common tools for accessing SQL Server are:
+### SQL Server Management Studio (SSMS) – 
+- Graphical tool
+- Windows only
+- Primarily for Admins
+- Advanced support for Replication & High Availability (HA)
+
+### Azure Data Studio (ADS)
+- Graphical tool
+- Cross Platform
+- Primarily for Developers
+- Advanced support for Notebooks & Extensions
+
+### sqlcmd
+- Command line tool
+- Cross platform
+- Primarily for automation & scripting scenarios
+
 
